@@ -1,6 +1,11 @@
 import React from "react";
 import "./Portfolio.css";
 import Home from "./Home";
+import gitHub from "../assets/github.png";
+import imageOne from "../assets/Image.png";
+import imageTwo from "../assets/Imagee.png";
+import imageThree from "../assets/Iimage.png";
+import arrow from "../assets/arrow.png";
 
 const Portfolio = () => {
   return (
@@ -14,7 +19,7 @@ const Portfolio = () => {
 
           <div>
             <button className="gitHub d-flex gap-2" to={"/github"}>
-              <img src="/src/assets/github.png" alt="" />
+              <img src={gitHub} alt="" />
               Visit My GitHub
             </button>
           </div>
@@ -23,7 +28,7 @@ const Portfolio = () => {
         <div className="portCard">
           <div className="port1 d-flex flex-column">
             <div className="subPortt">
-              <img src="/src/assets/Placeholder/Image.png" alt="" width={450} />
+              <img src={imageOne} alt="" width={450} />
               <div className="content">
                 <h5>Fylo Page</h5>
                 <p>
@@ -33,23 +38,14 @@ const Portfolio = () => {
               </div>
               <div className="subPort d-flex gap-3 px-4 py-4 align-items-center text-center">
                 <h4>View website</h4>
-                <img
-                  src="/src/assets/arrow.png"
-                  alt=""
-                  width={20}
-                  height={20}
-                />
+                <img src={arrow} alt="" width={20} height={20} />
               </div>
             </div>
           </div>
           {/* ============= */}
           <div className="port1 d-flex flex-column">
             <div className="subPortt">
-              <img
-                src="/src/assets/Placeholder/Placeholder/Image.png"
-                alt=""
-                width={450}
-              />
+              <img src={imageTwo} alt="" width={450} />
               <div className="content">
                 <h5>Advice Generator</h5>
                 <p>
@@ -60,23 +56,14 @@ const Portfolio = () => {
               </div>
               <div className="subPort d-flex gap-3 px-4 py-4 align-items-center text-center">
                 <h4>View website</h4>
-                <img
-                  src="/src/assets/arrow.png"
-                  alt=""
-                  width={20}
-                  height={20}
-                />
+                <img src={arrow} alt="" width={20} height={20} />
               </div>
             </div>
           </div>
           {/* ====================== */}
           <div className="port1 d-flex flex-column">
             <div className="subPortt">
-              <img
-                src="/src/assets/Placeholder/Placeholder/Placeholder/Image.png"
-                alt=""
-                width={450}
-              />
+              <img src={imageThree} alt="" width={450} />
               <div className="content">
                 <h5>Movie Hub</h5>
                 <p>
@@ -87,12 +74,7 @@ const Portfolio = () => {
               </div>
               <div className="subPort d-flex gap-3 px-4 py-4 align-items-center text-center">
                 <h4>View website</h4>
-                <img
-                  src="/src/assets/arrow.png"
-                  alt=""
-                  width={20}
-                  height={20}
-                />
+                <img src={arrow} alt="" width={20} height={20} />
               </div>
             </div>
           </div>

@@ -1,5 +1,9 @@
 import React from "react";
 import "./Testimonial.css";
+import stars from "../assets/Stars.png";
+import avater from "../assets/Avatar Image.png";
+import kathrin from "../assets/kathrin murphy.png";
+import kat from "../assets/kistine avarta.png";
 
 const Testimonial = () => {
   return (
@@ -13,11 +17,7 @@ const Testimonial = () => {
         <div className="subTestimonial">
           <div className="cardTest">
             <div className="stars text-start">
-              <img
-                src="/src/assets/Placeholder/Placeholder/Stars.png"
-                width={120}
-                alt="stars"
-              />
+              <img src={stars} width={120} alt="stars" />
             </div>
             <div className="testPara text-start">
               <p>
@@ -28,11 +28,7 @@ const Testimonial = () => {
               </p>
             </div>
             <div className="testProfile text-start align-items-center d-flex gap-3 align-items-center">
-              <img
-                src="/src/assets/Placeholder/Placeholder/Avatar Image.png"
-                width={50}
-                alt=""
-              />
+              <img src={avater} width={50} alt="" />
               <div className="testName text-start align-items-center">
                 <h6>Dianne Russell</h6>
                 <p>Starbucks</p>
@@ -42,11 +38,7 @@ const Testimonial = () => {
           {/* ========= */}
           <div className="cardTest">
             <div className="stars text-start">
-              <img
-                src="/src/assets/Placeholder/Placeholder/Stars.png"
-                width={120}
-                alt="stars"
-              />
+              <img src={stars} width={120} alt="stars" />
             </div>
             <div className="testPara text-start">
               <p>
@@ -58,11 +50,7 @@ const Testimonial = () => {
               </p>
             </div>
             <div className="testProfile text-start align-items-center d-flex gap-3 align-items-center">
-              <img
-                src="/src/assets/Placeholder/Placeholder/kistine avarta.png"
-                width={50}
-                alt=""
-              />
+              <img src={kat} width={50} alt="" />
               <div className="testName text-start align-items-center">
                 <h6>Kristin Watson</h6>
                 <p>Louis Vuitton</p>
@@ -72,11 +60,7 @@ const Testimonial = () => {
           {/* =============== */}
           <div className="cardTest">
             <div className="stars text-start">
-              <img
-                src="/src/assets/Placeholder/Placeholder/Stars.png"
-                width={120}
-                alt="stars"
-              />
+              <img src={stars} width={120} alt="stars" />
             </div>
             <div className="testPara text-start">
               <p>
@@ -87,11 +71,7 @@ const Testimonial = () => {
               </p>
             </div>
             <div className="testProfile text-start align-items-center d-flex gap-3 align-items-center">
-              <img
-                src="/src/assets/Placeholder/Placeholder/kathrin murphy.png"
-                width={50}
-                alt=""
-              />
+              <img src={kathrin} width={50} alt="" />
               <div className="testName text-start align-items-center">
                 <h6>Kathryn Murphy</h6>
                 <p>McDonald's</p>

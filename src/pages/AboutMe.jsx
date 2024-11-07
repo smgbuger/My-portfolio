@@ -1,12 +1,13 @@
 import React from "react";
 import "./AboutMe.css";
+import aboutMe from "../assets/About Me.png";
 
 const AboutMe = () => {
   return (
     <>
       <div className="aboutMeDiv">
         <div className="mainAbout">
-          <img src="/src/assets/About Me.png" alt="humanphoto" width={700} />
+          <img src={aboutMe} alt="humanphoto" width={700} />
         </div>
         {/* ================= */}
         <div className="secondAboutDiv">

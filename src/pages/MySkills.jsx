@@ -1,6 +1,10 @@
 import React from "react";
 import Home from "./Home";
 import "./MySkills.css";
+import webFlow from "../assets/Webflow Development.png";
+import tag from "../assets/Branding & Logo.png";
+import uiUx from "../assets/UI & UX Design.png";
+import replier from "../assets/Strategy & Direction.png";
 
 const MySkills = () => {
   return (
@@ -16,7 +20,7 @@ const MySkills = () => {
           {/* ===============first card============== */}
           <div className="firstCard">
             <div className="insideCard1">
-              <img src="/src/assets/Strategy & Direction.png" alt="" />
+              <img src={replier} alt="" />
               <div className="subCard">
                 <h3>Responsive Design</h3>
                 <p>
@@ -29,7 +33,7 @@ const MySkills = () => {
           {/* ================second card=================== */}
           <div className="secondCard">
             <div className="insideCard2">
-              <img src="/src/assets/Branding & Logo.png" alt="" />
+              <img src={tag} alt="" />
               <div className="subCard1">
                 <h3>Front-End Frameworks</h3>
                 <p>
@@ -43,7 +47,7 @@ const MySkills = () => {
           {/* ================================ */}
           <div className="secondCard">
             <div className="insideCard2">
-              <img src="/src/assets/Branding & Logo.png" alt="" />
+              <img src={uiUx} alt="" />
               <div className="subCard1">
                 <h3>Testing and Debugging</h3>
                 <p>
@@ -57,7 +61,7 @@ const MySkills = () => {
           {/* ================================== */}
           <div className="secondCard">
             <div className="insideCard2">
-              <img src="/src/assets/Branding & Logo.png" alt="" />
+              <img src={webFlow} alt="" />
               <div className="subCard1">
                 <h3>Cloud Services</h3>
                 <p>

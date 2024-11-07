@@ -1,5 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import navLogo from "../assets/image 1.png";
+import facebook from "../assets/Facebook.png";
+import instagram from "../assets/Instagram.png";
+import twitter from "../assets/Twitter.png";
+import linkedIn from "../assets/LinkedIn.png";
 
 import "./Footer.css";
 
@@ -10,7 +15,7 @@ const Footer = () => {
         <div className="firstFooter">
           <div className="linkName d-flex gap-1">
             <Link to={"/"} className="linkName ">
-              <img src="/src/assets/image 1.png" alt="logo" />
+              <img src={navLogo} alt="logo" />
             </Link>
             <p className="smg">SmgDev</p>
           </div>
@@ -35,29 +40,17 @@ const Footer = () => {
           {/* ==================== */}
           <div className="socials">
             <Link className="socials">
-              <img
-                src="/src/assets/Placeholder/Placeholder/Facebook.png"
-                alt="facebook.com/smartgee001"
-              />
+              <img src={facebook} alt="facebook" />
             </Link>
             <Link className="socials">
-              <img
-                src="/src/assets/Placeholder/Placeholder/Instagram.png"
-                alt="instagram"
-              />
+              <img src={instagram} alt="instagram" />
             </Link>
             <Link className="socials">
-              <img
-                src="/src/assets/Placeholder/Placeholder/Twitter.png"
-                alt="twitter"
-              />
+              <img src={twitter} alt="twitter" />
             </Link>
             <Link className="socials">
               {" "}
-              <img
-                src="/src/assets/Placeholder/Placeholder/LinkedIn.png"
-                alt="linkedIn"
-              />
+              <img src={linkedIn} alt="linkedIn" />
             </Link>
           </div>
         </div>

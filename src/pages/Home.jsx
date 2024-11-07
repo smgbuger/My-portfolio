@@ -1,4 +1,5 @@
 import React from "react";
+import heroImage from "../assets/Group 11 1.png";
 
 const Home = () => {
   return (
@@ -17,7 +18,7 @@ const Home = () => {
 
       {/* ============ */}
       <div>
-        <img src="/src/assets/Group 11 1.png" alt="" width={700} height={600} />
+        <img src={heroImage} alt="" width={700} height={600} />
       </div>
     </section>
   );

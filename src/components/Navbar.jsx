@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
+import navLogo from "../assets/image 1.png";
 
 const Navbar = () => {
   return (
@@ -8,7 +9,7 @@ const Navbar = () => {
       <nav className="nav d-flex justify-content-between align-items-center px-5">
         <div className="linkName d-flex gap-1">
           <Link to={"/"} className="linkName ">
-            <img src="/src/assets/image 1.png" alt="logo" />
+            <img src={navLogo} alt="logo" />
           </Link>
           <p className="smg">SmgDev</p>
         </div>
