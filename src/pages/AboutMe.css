@@ -1,0 +1,173 @@
+.aboutMeDiv {
+  width: Hug (1280px);
+  height: Hug (1262.67px);
+  top: 2022.67px;
+  padding: 83.33px 85.33px;
+  gap: 54.67px;
+  opacity: 0px;
+  display: flex;
+  text-align: left;
+  align-items: center;
+}
+
+.mainAbout {
+  display: flex;
+}
+
+.secondAboutDiv {
+  width: Hug (521.33px);
+  height: Hug (403.67px);
+  gap: 32px;
+  opacity: 0px;
+}
+
+.about {
+  width: Hug (280px);
+  height: Hug (119.67px);
+  gap: 10.67px;
+  opacity: 0px;
+}
+
+.about h6 {
+  width: 58px;
+  height: 32px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Roboto;
+  font-size: 21.33px;
+  font-weight: 600;
+  line-height: 32px;
+  text-align: center;
+}
+
+.about h4 {
+  width: 280px;
+  height: 77px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Roboto;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 76.8px;
+  text-align: left;
+  color: #282938;
+}
+
+.aboutMeText {
+  width: 521.33px;
+  height: 252px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.aboutMeText p {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  color: #1c1e53;
+}
+/* ============ */
+
+/* Media Query for Screen Resolution <= 768px */
+/* Media Query for Screen Resolution <= 768px */
+@media (max-width: 768px) {
+  .aboutMeDiv {
+    width: 100%;
+    padding: 60px 40px; /* Reduce padding */
+    flex-direction: column; /* Stack elements vertically */
+  }
+
+  .mainAbout {
+    flex-direction: column; /* Stack the image and text vertically */
+    align-items: center; /* Center image on smaller screens */
+    width: 100%;
+  }
+
+  .secondAboutDiv {
+    width: 100%;
+    height: auto;
+    gap: 20px;
+  }
+
+  .about {
+    width: 100%; /* Ensure the about section takes full width */
+    height: auto;
+    gap: 15px; /* Increased gap for spacing */
+  }
+
+  .about h6 {
+    font-size: 18px; /* Adjust font size */
+  }
+
+  .about h4 {
+    font-size: 48px; /* Adjust title font size */
+  }
+
+  .aboutMeText {
+    width: 100%;
+    height: auto;
+    gap: 15px;
+  }
+
+  .aboutMeText p {
+    font-size: 20px; /* Adjust text size */
+    line-height: 30px;
+  }
+
+  /* Make the image responsive */
+  .mainAbout img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* Media Query for Screen Resolution <= 500px */
+@media (max-width: 500px) {
+  .aboutMeDiv {
+    padding: 40px 20px; /* Reduce padding even further for very small screens */
+  }
+
+  .mainAbout {
+    flex-direction: column; /* Stack the image and content */
+    align-items: center; /* Center image on the page */
+    width: 100%;
+  }
+
+  .secondAboutDiv {
+    width: 100%;
+    height: auto;
+    gap: 15px;
+  }
+
+  .about {
+    width: 100%;
+    height: auto;
+    gap: 12px;
+  }
+
+  .about h6 {
+    font-size: 16px; /* Smaller font size for smaller screens */
+  }
+
+  .about h4 {
+    font-size: 36px; /* Adjust the title to be more compact */
+  }
+
+  .aboutMeText {
+    width: 100%;
+    height: auto;
+    gap: 10px;
+  }
+
+  .aboutMeText p {
+    font-size: 18px; /* Reduce text size for smaller screens */
+    line-height: 28px;
+  }
+
+  /* Make image even more responsive */
+  .mainAbout img {
+    width: 100%;
+    height: auto;
+  }
+}

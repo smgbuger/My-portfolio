@@ -1,0 +1,146 @@
+.contactMe {
+  width: Fixed (1440px);
+  height: Hug (1, 315px);
+  top: 5363.65px;
+  padding: 149.33px 85.33px;
+  gap: 64px;
+  opacity: 0px;
+  align-items: center;
+}
+
+.contactMeHeader {
+  width: Fixed (1024px);
+  height: Hug (198.33px);
+  gap: 21.33px;
+  opacity: 0px;
+}
+
+.contactMeHeader h6 {
+  font-size: 21.33px;
+  font-weight: 600;
+  line-height: 32px;
+  text-align: center;
+}
+
+.contactMeSub h2 {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 76.8px;
+  text-align: center;
+}
+
+.contactMeSub p {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+}
+
+.formPage {
+  width: 990px;
+  height: 754px;
+  gap: 42px;
+  opacity: 0px;
+}
+
+.firstName input {
+  width: 496px;
+  height: 64px;
+  padding: 8px;
+  border-radius: 8px;
+  opacity: 0px;
+  border: 1.33px solid #282938;
+}
+
+.textArearr textarea {
+  width: 1024px;
+  height: 240px;
+  padding: 16px;
+  gap: 0px;
+  border-radius: 8px;
+  opacity: 0px;
+  border: 1.33px solid #282938;
+}
+
+.formButton {
+  width: 990px;
+  height: 92px;
+  padding: 30px 42.67px;
+  gap: 10.67px;
+  border-radius: 8px;
+  opacity: 0px;
+  background: #5e3bee;
+  font-family: Roboto;
+  font-size: 21.33px;
+  font-weight: 400;
+  line-height: 32px;
+
+  color: white;
+}
+
+.names {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* ============== */
+/* Media Queries for screen resolution 375px to 768px */
+@media (max-width: 768px) and (min-width: 375px) {
+  .contactMe {
+    padding: 80px 20px; /* Reduced padding on smaller screens */
+  }
+
+  .contactMeHeader {
+    text-align: center; /* Center the header text */
+  }
+
+  .contactMeSub h2 {
+    font-size: 36px; /* Reduced font size */
+    line-height: 42px;
+  }
+
+  .contactMeSub p {
+    font-size: 18px; /* Adjust text size for smaller screens */
+    line-height: 28px;
+  }
+
+  .formPage {
+    width: 100%; /* Full width of the screen */
+    gap: 24px; /* Reduced gap between form elements */
+  }
+
+  .firstName input {
+    width: 100%; /* Make input fields full width */
+    height: 48px; /* Reduced height */
+    font-size: 14px; /* Adjust font size */
+  }
+
+  .textArearr textarea {
+    width: 100%; /* Make textarea full width */
+    height: 180px; /* Reduced height */
+    font-size: 14px; /* Adjust font size */
+  }
+
+  .formButton {
+    width: 100%; /* Make the button full width */
+    height: 70px; /* Adjust button height */
+    padding: 18px 0; /* Adjust padding */
+    font-size: 16px; /* Adjust font size */
+  }
+
+  .names {
+    flex-direction: column; /* Stack first and last name fields vertically */
+    gap: 16px;
+  }
+
+  /* Adjust input labels */
+  .form-label {
+    font-size: 14px; /* Reduce font size of labels */
+  }
+
+  /* Image adjustments */
+  .contactMe img {
+    width: 100%;
+    height: auto;
+  }
+}

@@ -1,0 +1,292 @@
+.portfolio {
+  width: Fixed (1280px);
+  height: Hug (990px);
+  top: 3210.67px;
+  padding: 79.33px 25.33px;
+  gap: 106.67px;
+  opacity: 0px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.viewGitHub {
+  width: Fill (1280.33px);
+  height: Hug (130.33px);
+  gap: 0px;
+  justify-content: space-between;
+  opacity: 0px;
+  align-items: center;
+}
+
+.portfolioProf {
+  width: Fixed (1024px);
+  height: Hug (130.33px);
+  gap: 21.33px;
+  opacity: 0px;
+  text-align: left;
+}
+
+.portfolioProf h6 {
+  width: 152px;
+  height: 32px;
+  gap: 0px;
+  opacity: 0px;
+  font-size: 21.33px;
+  font-weight: 600;
+  line-height: 32px;
+  text-align: center;
+  color: #282938;
+  text-align: left;
+}
+
+.portfolioProf h3 {
+  width: 1024px;
+  height: 77px;
+  gap: 0px;
+  opacity: 0px;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 76.8px;
+  text-align: left;
+  color: #282938;
+}
+
+.gitHub {
+  width: Hug (229px);
+  height: Fixed (74.67px);
+  padding: 13.33px 21.33px;
+  gap: 6px;
+  border-radius: 10.67px;
+  opacity: 0px;
+  background: #7e69d3;
+  box-shadow: 0px 1.33px 2.67px 0px #1018280d;
+  border: none;
+  color: white;
+  font-size: 21.33px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.gitHub img:hover {
+  background-color: #7e69d3;
+  color: white;
+  border: 1px solid #7e69d3;
+}
+
+.gitHub:focus {
+  background-color: transparent;
+  color: #7e69d3;
+  border: 1px solid #7e69d3;
+}
+
+/* = ===================== */
+.portCard {
+  width: Fill (800.33px);
+  height: Hug (454.33px);
+  gap: 35.33px;
+  opacity: 0px;
+  display: flex;
+}
+
+.port1 {
+  width: Fill (354.67px);
+  height: Hug (454.33px);
+  gap: 0px;
+  opacity: 0px;
+  box-shadow: 0px 0px 32px 0px #00000026;
+}
+
+.content {
+  width: Fill (290.67px);
+  height: Hug (39.67px);
+  gap: 5.67px;
+  opacity: 0px;
+  padding: 32px;
+}
+
+.content h5 {
+  width: 290.67px;
+  height: 20px;
+  gap: 0px;
+  opacity: 0px;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 14.8px;
+  text-align: left;
+  color: #282938;
+}
+
+.content p {
+  width: 380.67px;
+  height: 24px;
+  gap: 0px;
+  opacity: 0px;
+  font-size: 16.33px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #1c1e53;
+}
+
+.subPort h4 {
+  border-bottom: 3px solid #7e69d3;
+}
+/* ================ */
+/* For screens between 375px and 768px */
+@media (max-width: 768px) {
+  .portfolio {
+    width: 100%; /* Full width of the screen */
+    padding: 20px; /* Adjust padding to make the content fit better */
+    text-align: center; /* Center text for smaller screens */
+  }
+
+  /* View GitHub section */
+  .viewGitHub {
+    flex-direction: column; /* Stack items vertically */
+    gap: 15px; /* Reduced gap between items */
+    align-items: center; /* Center align items */
+  }
+
+  .portfolioProf {
+    width: 100%; /* Full width */
+    text-align: center; /* Center the title */
+    margin-bottom: 20px; /* Add some space below */
+  }
+
+  .portfolioProf h6 {
+    font-size: 18px; /* Smaller font size */
+    color: #282938;
+  }
+
+  .portfolioProf h3 {
+    font-size: 36px; /* Adjust size for better fit */
+    line-height: 44px; /* Reduce line-height for better alignment */
+  }
+
+  /* GitHub Button */
+  .gitHub {
+    width: 100%; /* Full width */
+    padding: 12px 18px; /* Reduced padding */
+    font-size: 18px; /* Adjust font size */
+    gap: 8px; /* Adjust gap */
+    border-radius: 8px;
+  }
+
+  .gitHub img {
+    width: 20px; /* Resize icon */
+    height: 20px;
+  }
+
+  /* Portfolio Card Section */
+  .portCard {
+    width: 100%; /* Full width */
+    display: flex;
+    flex-wrap: wrap; /* Allow the cards to wrap */
+    gap: 20px; /* Reduced gap between cards */
+  }
+
+  .port1 {
+    width: 100%; /* Full width on smaller screens */
+    height: auto; /* Allow height to adjust based on content */
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1); /* Lighter shadow */
+    padding: 10px; /* Reduced padding */
+  }
+
+  .subPortt {
+    width: 100%; /* Full width */
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
+    gap: 15px;
+  }
+
+  .content {
+    width: 100%; /* Full width for content */
+    padding: 16px; /* Adjust padding */
+  }
+
+  .content h5 {
+    font-size: 22px; /* Adjust font size */
+    color: #282938;
+  }
+
+  .content p {
+    font-size: 14px; /* Adjust font size */
+    color: #1c1e53;
+  }
+  .subPort img {
+    width: 50%; /* Make images responsive */
+  }
+
+  .subPort h4 {
+    font-size: 16px; /* Smaller font size */
+    padding: 5px 0; /* Reduced padding */
+    border-bottom: 2px solid #7e69d3; /* Smaller border */
+  }
+
+  /* Image resizing for portfolio items */
+  .subPortt img {
+    width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Crop image if necessary */
+  }
+}
+
+/* ===================== */
+/* For screens between 375px and 768px (tablets and small mobile devices) */
+@media (max-width: 375px) {
+  .portfolio {
+    padding: 10px; /* Further reduce padding */
+  }
+
+  .portfolioProf h3 {
+    font-size: 30px; /* Smaller font size */
+    line-height: 36px; /* Adjust line-height */
+  }
+
+  .portfolioProf h6 {
+    font-size: 16px; /* Smaller font size */
+  }
+
+  /* GitHub Button */
+  .gitHub {
+    font-size: 16px; /* Smaller button font size */
+    padding: 10px 12px; /* Reduced padding */
+  }
+
+  /* Portfolio Cards */
+  .portCard {
+    gap: 15px; /* Smaller gap */
+  }
+
+  .port1 {
+    width: 100%; /* Full width */
+    padding: 8px; /* Further reduce padding */
+  }
+
+  .content {
+    padding: 12px; /* Reduce padding for content */
+  }
+
+  .content h5 {
+    font-size: 18px; /* Smaller heading font */
+  }
+
+  .content p {
+    font-size: 12px; /* Smaller paragraph text */
+  }
+
+  .arrow img {
+    width: 50px; /* Make images responsive */
+  }
+
+  .subPort h4 {
+    font-size: 14px; /* Further reduce font size */
+  }
+
+  /* Image adjustments */
+  .subPortt img {
+    width: 100%; /* Full width images */
+    height: auto;
+  }
+}

@@ -1,0 +1,275 @@
+.footer {
+  width: 1420px;
+  height: 432px;
+  top: 6784.99px;
+  padding: 106.67px 85.33px;
+  gap: 106.67px;
+  opacity: 0px;
+  background: #f5fcff;
+}
+
+.firstFooter {
+  width: 1280.33px;
+  height: 40px;
+  gap: 0px;
+  justify-content: space-between;
+  opacity: 0px;
+  display: flex;
+}
+
+.linkName {
+  font-size: 25.21px;
+  font-weight: 600;
+}
+
+.links {
+  font-size: 21.33px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #1c1e53;
+  margin: auto;
+  width: 727.33px;
+  height: 32px;
+  gap: 42.67px;
+  opacity: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.links :hover {
+  color: #5e3bee;
+}
+
+.socials {
+  /* width: 490.67px; */
+  height: 32px;
+  gap: 16px;
+  opacity: 0px;
+  display: flex;
+  justify-content: end;
+}
+
+.secondFooter {
+  width: 1280.33px;
+  height: 1.33px;
+  gap: 0px;
+  opacity: 0px;
+  border-top: 1px solid black;
+  margin-top: 100px;
+}
+
+.subFooter {
+  width: 1280.33px;
+  height: 28px;
+  gap: 0px;
+  justify-content: space-between;
+  opacity: 0px;
+  margin-top: 50px;
+}
+
+.firstSubFooter {
+  width: 213px;
+  height: 28px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.secondSubFooter {
+  width: 459px;
+  height: 28px;
+  gap: 32px;
+  opacity: 0px;
+  display: flex;
+}
+
+.secondSubFooter p {
+  font-size: 18.67px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+}
+
+/* =====media query 768px */
+/* For screens with max-width: 768px */
+@media (max-width: 768px) {
+  .footer {
+    width: 100%; /* Full width for mobile */
+    height: auto; /* Dynamic height */
+    padding: 40px 20px; /* Reduced padding */
+    gap: 40px; /* Adjusted gap */
+    opacity: 1; /* Make it visible */
+  }
+
+  .firstFooter {
+    width: 100%; /* Full width */
+    height: auto; /* Dynamic height */
+    justify-content: center; /* Centered items */
+    padding: 0 10px; /* Adjust padding */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .linkName {
+    font-size: 20px; /* Smaller font for link names */
+  }
+
+  .links {
+    width: 100%;
+    font-size: 16px;
+    justify-content: center;
+    gap: 20px;
+    text-align: start;
+    align-items: start;
+    text-align: start;
+    align-content: start;
+  }
+
+  .socials {
+    justify-content: center;
+  }
+
+  .secondFooter {
+    width: 100%;
+    height: 1px;
+    margin-top: 50px;
+  }
+
+  .subFooter {
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+    justify-content: center;
+  }
+
+  .firstSubFooter,
+  .secondSubFooter {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .secondSubFooter p {
+    font-size: 16px;
+  }
+}
+
+/* =========500px */
+/* For screens with max-width: 500px */
+@media (max-width: 500px) {
+  .footer {
+    width: 100%;
+    height: auto;
+    padding: 30px 10px;
+    gap: 30px;
+    opacity: 1;
+  }
+
+  .firstFooter {
+    width: 100%;
+    justify-content: center;
+    padding: 0 5px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .linkName {
+    font-size: 18px;
+  }
+
+  .links {
+    width: 100%;
+    font-size: 14px;
+    justify-content: center;
+    gap: 15px;
+    text-align: start;
+    align-items: start;
+    text-align: start;
+    align-content: start;
+  }
+
+  .socials {
+    justify-content: center;
+  }
+
+  .secondFooter {
+    width: 100%;
+    height: 1px;
+    margin-top: 40px;
+  }
+
+  .subFooter {
+    width: 100%;
+    margin-top: 30px;
+    justify-content: center;
+  }
+
+  .firstSubFooter,
+  .secondSubFooter {
+    width: 100%;
+    margin-top: 8px;
+  }
+
+  .secondSubFooter p {
+    font-size: 14px;
+  }
+}
+/* ========== */
+/* For screens with max-width: 365px */
+@media (max-width: 365px) {
+  .footer {
+    width: 100%; /* Full width */
+    padding: 20px 5px; /* Minimal padding */
+    gap: 20px; /* Reduced gap */
+    opacity: 1;
+  }
+
+  .firstFooter {
+    width: 100%; /* Full width */
+    justify-content: center; /* Centered layout */
+    display: flex;
+    flex-direction: column;
+  }
+
+  .linkName {
+    font-size: 16px; /* Even smaller font for link names */
+  }
+
+  .links {
+    width: 100%; /* Full width */
+    font-size: 12px; /* Smaller font size for mobile */
+    justify-content: center;
+    gap: 10px; /* Tighter gap */
+    text-align: start;
+    align-items: start;
+    text-align: start;
+    align-content: start;
+  }
+
+  .socials {
+    justify-content: center; /* Centered social icons */
+    display: flex;
+    flex-direction: column;
+  }
+
+  .secondFooter {
+    width: 100%; /* Full width */
+    height: 1px;
+    margin-top: 30px;
+  }
+
+  .subFooter {
+    width: 100%; /* Full width */
+    margin-top: 20px;
+    justify-content: center;
+  }
+
+  .firstSubFooter,
+  .secondSubFooter {
+    width: 100%; /* Full width */
+    margin-top: 5px;
+  }
+
+  .secondSubFooter p {
+    font-size: 12px; /* Very small font size for readability */
+  }
+}

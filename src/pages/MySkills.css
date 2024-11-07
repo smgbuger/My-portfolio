@@ -1,0 +1,264 @@
+.mySkills {
+  width: Fixed (1440px);
+  height: 806.33px;
+  top: 1116px;
+  padding: 149.33px 85.33px;
+  gap: 106.67px;
+  opacity: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.firstDiv {
+  width: Fixed (1024px);
+  height: Hug (80.33px);
+  gap: 20.33px;
+  opacity: 0px;
+  text-align: left;
+}
+
+.firstDiv h5 {
+  font-size: 18.33px;
+  font-weight: 600;
+  line-height: 32px;
+  text-align: left;
+}
+
+.firstDiv h2 {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 76.8px;
+  text-align: left;
+}
+/* ==================== */
+
+.secondDiv {
+  width: Fill (1440.33px);
+  height: Hug (320.67px);
+  gap: 32.67px;
+  opacity: 0px;
+  display: flex;
+}
+
+.firstCard {
+  width: Fill (305.33px);
+  height: Hug (319.67px);
+  padding: 28px;
+  gap: 28px;
+  border-radius: 10.67px;
+  border: 0px 0px 4px 0px;
+  opacity: 0px;
+  background: #f5fcff;
+}
+
+.firstCard:hover {
+  border-bottom: 4px solid #5e3bee;
+}
+
+.insideCard1 {
+  width: Fill (241.33px);
+  height: Hug (345.67px);
+  gap: 32px;
+  opacity: 0px;
+  text-align: left;
+}
+
+.subCard {
+  width: Fill (241.33px);
+  height: Hug (144.33px);
+  gap: 18.33px;
+  opacity: 0px;
+}
+
+.subCard h3 {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24.8px;
+  text-align: left;
+  width: 241.33px;
+  height: 35px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.subCard p {
+  font-size: 16.33px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  width: 241.33px;
+  height: 78px;
+  gap: 0px;
+  opacity: 0px;
+}
+/* =================== */
+.secondCard {
+  width: Fill (305.33px);
+  height: Hug (220.33px);
+  padding: 28px;
+  gap: 28px;
+  border-radius: 10.67px;
+  opacity: 0px;
+  background: #f5fcff;
+}
+
+.secondCard:hover {
+  border-bottom: 4px solid #5e3bee;
+}
+
+.insideCard2 {
+  width: Fill (241.33px);
+  height: Hug (256.33px);
+  gap: 18.33px;
+  opacity: 0px;
+  text-align: left;
+}
+
+.subCard1 {
+  width: Fill (241.33px);
+  height: Hug (155px);
+  gap: 28px;
+  opacity: 0px;
+}
+
+.subCard1 h3 {
+  width: 241.33px;
+  height: 35px;
+  gap: 0px;
+  opacity: 0px;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24.8px;
+  text-align: left;
+}
+
+.subCard1 p {
+  width: 241.33px;
+  height: 78px;
+  gap: 0px;
+  opacity: 0px;
+  font-size: 16.33px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  padding-bottom: 15px;
+}
+/* =============== */
+/* For screens with max-width: 768px */
+/* For Screens with max-width: 768px */
+@media (max-width: 768px) {
+  .mySkills {
+    width: 100%;
+    padding: 60px 20px; /* Adjusted padding */
+    gap: 50px; /* Reduced gap */
+    flex-direction: column; /* Stack items vertically */
+    text-align: center; /* Center text */
+  }
+
+  .firstDiv {
+    width: 100%;
+    text-align: center; /* Centered text */
+  }
+
+  .firstDiv h5 {
+    font-size: 16px; /* Smaller font size for smaller screens */
+  }
+
+  .firstDiv h2 {
+    font-size: 40px; /* Adjusted for medium screens */
+    line-height: 48px;
+  }
+
+  .secondDiv {
+    flex-direction: column; /* Stack cards vertically */
+    width: 100%;
+  }
+
+  .firstCard,
+  .secondCard {
+    width: 100%;
+    padding: 20px; /* Adjusted padding */
+    margin-bottom: 20px; /* Space between cards */
+  }
+
+  .insideCard1,
+  .insideCard2 {
+    gap: 20px; /* Adjusted gap */
+  }
+
+  .subCard,
+  .subCard1 {
+    gap: 15px; /* Adjusted gap between subcard elements */
+  }
+
+  .subCard h3,
+  .subCard1 h3 {
+    font-size: 18px; /* Reduced font size */
+    line-height: 22px;
+  }
+
+  .subCard p,
+  .subCard1 p {
+    font-size: 14px; /* Adjusted font size */
+    line-height: 20px;
+  }
+}
+
+/* ================================ */
+
+/* For Screens with max-width: 500px */
+@media (max-width: 500px) {
+  .mySkills {
+    width: 100%;
+    padding: 40px 15px; /* Further reduced padding */
+    gap: 30px; /* Reduced gap for mobile */
+  }
+
+  .firstDiv {
+    width: 100%;
+    text-align: center; /* Centered text */
+  }
+
+  .firstDiv h5 {
+    font-size: 14px; /* Smaller font size */
+  }
+
+  .firstDiv h2 {
+    font-size: 28px; /* Smaller font size */
+    line-height: 36px; /* Adjusted line-height */
+  }
+
+  .secondDiv {
+    flex-direction: column; /* Stack items vertically */
+    width: 100%;
+  }
+
+  .firstCard,
+  .secondCard {
+    width: 100%;
+    padding: 15px; /* Reduced padding */
+    margin-bottom: 15px; /* Space between cards */
+  }
+
+  .insideCard1,
+  .insideCard2 {
+    gap: 15px; /* Reduced gap */
+  }
+
+  .subCard,
+  .subCard1 {
+    gap: 10px; /* Further reduced gap */
+  }
+
+  .subCard h3,
+  .subCard1 h3 {
+    font-size: 16px; /* Smaller font size */
+    line-height: 20px;
+  }
+
+  .subCard p,
+  .subCard1 p {
+    font-size: 12px; /* Smaller font size for small devices */
+    line-height: 18px;
+  }
+}

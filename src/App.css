@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+#root {
+  max-width: 1440px;
+  margin: 0 auto;
+  /* padding: 1rem; */
+  text-align: center;
+}
+
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button {
+  font-family: "Roboto", sans-serif;
+}
+
+.firstSection {
+  width: Fixed (1440px);
+  /* height: Hug (996.41px); */
+  top: 120px;
+  padding: 133.33px 85.33px 133.33px 85.33px;
+  gap: 0px;
+  opacity: 0px;
+  background: #f5fcff;
+}
+
+.heroOne {
+  gap: 32px;
+  opacity: 0px;
+  flex-direction: column;
+  width: 900px;
+  align-items: left;
+  text-align: left;
+}
+
+.heroOne p {
+  gap: 0px;
+  opacity: 0px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  color: #1c1e53;
+}
+
+.heroOne h2 {
+  gap: 0px;
+  opacity: 0px;
+  font-size: 54.67px;
+  font-weight: 700;
+  line-height: 59.6px;
+  color: #282938;
+  padding-right: -250px;
+}
+
+.heroButton {
+  width: Fixed (170.67px);
+  height: Hug (69.33px);
+  padding: 18.67px 42.67px;
+  gap: 10.67px;
+  border-radius: 5.33px;
+  opacity: 0px;
+  background: #5e3bee;
+  color: #ffffff;
+  border: 1px solid #5e3bee;
+  font-weight: 400;
+}
+
+.heroButton:hover {
+  background-color: transparent;
+  border: 1px solid #5e3bee;
+  color: #5e3bee;
+  font-weight: 400;
+}
+
+/* ======================= */
+/* Media Queries for screen resolution between 375px to 768px */
+@media (max-width: 768px) and (min-width: 375px) {
+  .firstSection {
+    flex-direction: column;
+    padding: 80px 20px; /* Reduced padding */
+    gap: 40px;
+  }
+
+  .heroOne {
+    width: 100%; /* Take full width for smaller screens */
+    align-items: center;
+    text-align: center; /* Center text */
+    padding: 0 20px; /* Padding for spacing */
+  }
+
+  .heroOne p {
+    font-size: 16px; /* Reduce font size for small screens */
+    line-height: 24px; /* Adjust line height for readability */
+    color: #1c1e53;
+  }
+
+  .heroOne h2 {
+    font-size: 36px; /* Smaller font size */
+    line-height: 40px; /* Adjust line height */
+    color: #282938;
+  }
+
+  .heroButton {
+    width: 100%; /* Button takes full width */
+    padding: 16px 10px; /* Adjust padding */
+    font-size: 16px; /* Adjust font size */
+    height: auto; /* Dynamic height */
+  }
+
+  /* Make the image responsive */
+  .firstSection img {
+    width: 100%;
+    height: auto;
+  }
+}

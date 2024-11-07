@@ -1,0 +1,160 @@
+/* ===================== */
+/* Navbar Styles */
+nav {
+  box-shadow: 0px 5.33px 80px 0px #0000001a;
+  width: 100%;
+  height: 120px;
+  padding: 0px 85.33px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  opacity: 1;
+}
+
+.linkName {
+  font-family: Roboto;
+  font-size: 25.21px;
+  font-weight: 600;
+}
+
+.links {
+  font-family: Roboto;
+  font-size: 21.33px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #1c1e53;
+}
+
+.links:hover {
+  color: #5e3bee;
+}
+
+.navButton {
+  border: 1px solid #5e3bee;
+  width: 170.67px;
+  height: 69.33px;
+  padding: 18.67px 32.67px;
+  margin: 15px;
+  border-radius: 5.33px;
+  background-color: transparent;
+  font-family: Roboto;
+  font-size: 18.33px;
+  color: #5e3bee;
+}
+
+.navButton:hover {
+  background-color: #5e3bee;
+  color: white;
+}
+
+/* ===================== */
+/* Hamburger Menu */
+.hamburger {
+  display: none;
+  cursor: pointer;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.hamburger .line {
+  width: 30px;
+  height: 4px;
+  background-color: #333;
+  transition: all 0.3s ease;
+}
+
+/* When the hamburger menu is open, animate lines */
+.hamburger .line.open:nth-child(1) {
+  transform: rotate(45deg);
+  position: relative;
+  top: 8px;
+}
+
+.hamburger .line.open:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger .line.open:nth-child(3) {
+  transform: rotate(-45deg);
+  position: relative;
+  top: -8px;
+}
+
+/* ===================== */
+/* Mobile Styles - Hide Links by default */
+.links-container {
+  display: flex;
+  gap: 5px;
+  justify-content: space-between;
+}
+
+.links-container.open {
+  display: block; /* Show links when hamburger menu is open */
+}
+
+.links {
+  display: block;
+  margin-top: 10px;
+  font-size: 16px;
+  color: #1c1e53;
+}
+
+/* ===================== */
+/* Media Queries */
+@media (max-width: 768px) {
+  .navButton {
+    display: none;
+  }
+
+  .linkName {
+    font-size: 20px;
+  }
+
+  /* Display Hamburger icon for small screens */
+  .hamburger {
+    display: flex;
+  }
+
+  /* Mobile Navigation Links */
+  .links-container {
+    display: none;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    padding: 18px;
+    border-top: 1px solid #ccc;
+  }
+
+  .links-container.open {
+    display: block;
+  }
+
+  .links {
+    padding: 2px 0;
+    border-bottom: 1px solid #f1f1f1;
+    font-size: 18px;
+  }
+
+  .links:last-child {
+    border-bottom: none;
+  }
+}
+
+/* For max-width 365px and below */
+@media (max-width: 365px) {
+  .navButton {
+    font-size: 14px;
+    padding: 6px 12px;
+    margin: 5px 0;
+  }
+
+  .linkName {
+    font-size: 16px;
+  }
+
+  .links {
+    font-size: 15px;
+  }
+}

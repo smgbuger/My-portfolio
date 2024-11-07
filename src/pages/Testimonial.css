@@ -1,0 +1,241 @@
+.testimonial {
+  width: Fixed (1440px);
+  height: Hug (902.19px);
+  top: 4413.14px;
+  padding: 89.33px 25.33px;
+  gap: 106.67px;
+  opacity: 0px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.testClient {
+  width: Fill (1280.33px);
+  height: Hug (130.33px);
+  gap: 21.33px;
+  opacity: 0px;
+  /* display: flex; */
+}
+
+.testClient h5 {
+  width: 746.67px;
+  height: 32px;
+  gap: 0px;
+  opacity: 0px;
+  font-size: 21.33px;
+  font-weight: 600;
+  line-height: 32px;
+  text-align: left;
+  color: #282938;
+}
+
+.testClient h3 {
+  width: 746.67px;
+  height: 77px;
+  gap: 0px;
+  opacity: 0px;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 76.8px;
+  text-align: left;
+  color: #282938;
+}
+
+.subTestimonial {
+  width: Fill (880.33px);
+  height: Hug (166.52px);
+  gap: 32.67px;
+  opacity: 0px;
+  display: flex;
+  /* border: 2px solid red; */
+}
+
+.cardTest {
+  width: Fill (154.67px);
+  height: Hug (66.52px);
+  padding: 20.67px 15px;
+  border-radius: 8px;
+  opacity: 0px;
+  border: 1.33px solid #006b6a;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.stars {
+  width: 26.67px;
+  height: 25.19px;
+  gap: 0px;
+  opacity: 0px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.testPara {
+  width: 420.33px;
+  height: 96px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.testPara p {
+  font-size: 16.33px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.testProfile {
+  width: Hug (238px);
+  height: Hug (74.67px);
+  gap: 21.33px;
+  opacity: 0px;
+  margin-top: 15px;
+}
+
+.testName {
+  width: Hug (142px);
+  height: Hug (64px);
+  gap: 0px;
+  opacity: 0px;
+  margin-top: 20px;
+}
+/* ================= */
+/* For screens with max-width: 768px */
+@media (max-width: 768px) {
+  .testimonial {
+    width: 100%; /* Full width */
+    height: auto; /* Dynamic height */
+    padding: 50px 20px; /* Adjusted padding */
+    gap: 50px; /* Reduced gap */
+    text-align: center; /* Centered text */
+  }
+
+  .testClient {
+    width: 100%; /* Full width */
+    height: auto; /* Dynamic height */
+    gap: 20px; /* Adjusted gap */
+  }
+
+  .testClient h5 {
+    font-size: 18px; /* Smaller font size */
+    line-height: 28px; /* Adjusted line height */
+  }
+
+  .testClient h3 {
+    font-size: 36px; /* Smaller font size */
+    line-height: 40px; /* Adjusted line height */
+  }
+
+  .subTestimonial {
+    width: 100%; /* Full width */
+    height: auto; /* Dynamic height */
+    gap: 30px; /* Reduced gap */
+    display: block; /* Stack items vertically */
+  }
+
+  .cardTest {
+    width: 100%; /* Full width for card */
+    padding: 15px 10px; /* Reduced padding */
+    gap: 10px; /* Reduced gap */
+    border-radius: 8px;
+    border: 1.33px solid #006b6a;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .stars {
+    width: 20px; /* Reduced star size */
+    height: 18px; /* Adjusted height */
+    margin-bottom: 15px; /* Reduced margin */
+  }
+
+  .testPara {
+    width: 100%; /* Full width */
+    height: auto; /* Dynamic height */
+  }
+
+  .testPara p {
+    font-size: 14px; /* Smaller font size */
+    line-height: 20px; /* Adjusted line height */
+  }
+
+  .testProfile {
+    width: 100%; /* Full width */
+    height: auto; /* Dynamic height */
+    margin-top: 10px; /* Reduced top margin */
+  }
+
+  .testName {
+    width: 100%; /* Full width */
+    height: auto; /* Dynamic height */
+    margin-top: 10px; /* Reduced top margin */
+  }
+}
+
+/* ===================== */
+/* For screens with max-width: 500px */
+@media (max-width: 500px) {
+  .testimonial {
+    width: 100%; /* Full width */
+    padding: 40px 10px; /* Adjusted padding */
+    gap: 40px; /* Reduced gap */
+  }
+
+  .testClient {
+    width: 100%; /* Full width */
+    gap: 15px; /* Reduced gap */
+  }
+
+  .testClient h5 {
+    font-size: 16px; /* Further reduced font size */
+    line-height: 24px; /* Adjusted line height */
+  }
+
+  .testClient h3 {
+    font-size: 28px; /* Further reduced font size */
+    line-height: 32px; /* Adjusted line height */
+  }
+
+  .subTestimonial {
+    width: 100%; /* Full width */
+    gap: 25px; /* Reduced gap */
+    display: block; /* Stack items vertically */
+  }
+
+  .cardTest {
+    width: 100%; /* Full width for card */
+    padding: 12px 8px; /* Reduced padding */
+    gap: 8px; /* Reduced gap */
+  }
+
+  .stars {
+    width: 18px; /* Smaller star size */
+    height: 16px; /* Adjusted height */
+    margin-bottom: 10px; /* Reduced margin */
+  }
+
+  .testPara {
+    width: 100%; /* Full width */
+    height: auto; /* Dynamic height */
+  }
+
+  .testPara p {
+    font-size: 12px; /* Smaller font size */
+    line-height: 18px; /* Adjusted line height */
+  }
+
+  .testProfile {
+    width: 100%; /* Full width */
+    height: auto; /* Dynamic height */
+    margin-top: 8px; /* Reduced margin */
+  }
+
+  .testName {
+    width: 100%; /* Full width */
+    height: auto; /* Dynamic height */
+    margin-top: 8px; /* Reduced margin */
+  }
+}
